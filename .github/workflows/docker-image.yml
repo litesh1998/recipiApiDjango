@@ -17,4 +17,4 @@ jobs:
     - name: Build the Docker image
       run: docker-compose build --tag recipiApiDjango:$(date +%s)
     - name: Testing Django Application
-      run: docker-compose run app sh -c "python mange.py test && flake8"
+      run: docker-compose run app sh -c "python manage.py test && flake8"
