@@ -3,3 +3,4 @@ djangorestframework
 
 
 flake8
+psycopg2>=2.5.4,<3.0
